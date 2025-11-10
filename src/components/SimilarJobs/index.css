@@ -1,0 +1,16 @@
+.similar-job-list-container {
+  background-color: #272727;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 8px;
+  width: 30vw;
+}
+
+.similar-image {
+  height: 80px;
+}
+
+.similar-job-container {
+  display: flex;
+}

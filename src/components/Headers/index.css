@@ -1,0 +1,27 @@
+.headers-container {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.header-button {
+  background-color: #6366f1;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 8px;
+  width: 90px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.website-logo {
+  cursor: pointer;
+}

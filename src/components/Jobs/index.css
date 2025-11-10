@@ -1,0 +1,56 @@
+.jobs-container {
+  padding: 40px;
+  display: flex;
+  background-color: #000000;
+  background-size: cover;
+}
+
+.profile-employement-salary-container {
+  margin-right: 25px;
+}
+
+.input-search-container {
+  border: 1px solid #f8fafc;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  width: 280px;
+  display: flex;
+}
+
+.search {
+  height: 30px;
+  width: 280px;
+  background-color: transparent;
+  border: #000000;
+  border-width: 0px;
+  color: #ffffff;
+}
+
+.search-icon-button {
+  background-color: #272727;
+  color: #ffffff;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.wrong-heaading {
+  color: #ffffff;
+}
+
+.wrong-para {
+  color: #ffffff;
+}
+
+.list-container {
+  list-style-type: none;
+}
