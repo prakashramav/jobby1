@@ -1,16 +1,105 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🧑‍💼 Jobby App
 
-Currently, two official plugins are available:
+A responsive job search platform built using React.js, where users can log in, browse job listings, view job details, and apply filters such as employment type and salary range.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Demo: Jobby App on Vercel
 
-## React Compiler
+👤 Test Credentials:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Username: rahul
+Password: rahul@2021
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Secure Login & Logout using JWT authentication
+✅ Protected Routes (only accessible when logged in)
+✅ Fetches real-time job data from APIs (https://apis.ccbp.in/)
+✅ Filter jobs by employment type, salary range, and search keyword
+✅ Responsive design for all devices
+✅ Job details page with similar job suggestions
+✅ Loader and failure views for better user experience
+
+🧰 Tech Stack
+Category	Technology
+Frontend	React.js, JSX, CSS3
+Routing	React Router DOM (v6)
+Icons	React Icons
+State Management	Component State (Class Components)
+Authentication	js-cookie
+Deployment	Vercel
+📦 Installation and Setup
+
+Follow these steps to run the project locally:
+
+Clone the repository
+
+git clone https://github.com/your-username/jobby-app.git
+
+
+Navigate into the project folder
+
+cd jobby-app
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm start
+
+
+Open your browser
+
+http://localhost:3000
+
+📁 Folder Structure
+jobby-app/
+│
+├── src/
+│   ├── components/
+│   │   ├── Login/
+│   │   ├── Home/
+│   │   ├── Jobs/
+│   │   ├── JobDetails/
+│   │   ├── Header/
+│   │   ├── ProfileDetails/
+│   │   └── NotFound/
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+│
+├── package.json
+└── README.md
+
+🔐 Environment Variables (if any)
+
+If your app uses environment variables, create a .env file in the root:
+
+REACT_APP_API_BASE_URL=https://apis.ccbp.in
+
+🧪 Test Credentials
+
+Use these credentials to explore the app:
+
+Username	Password
+rahul	rahul@2021
+🧑‍💻 Developer
+
+Arjun
+Frontend Developer | React Enthusiast
+💼 LinkedIn
+ • 🐙 GitHub
+
+📸 Screenshots (Optional)
+
+Add screenshots or a GIF of your app UI here.
+
+📝 License
+
+This project is licensed under the MIT License.
