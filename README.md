@@ -6,6 +6,7 @@ A responsive job search platform built using React.js, where users can log in, b
 
 # 🔗 Live Demo: 
         Jobby App on Vercel
+        [Link](https://jobby1.vercel.app/)
 
 # 👤 Test Credentials:
 
@@ -83,7 +84,7 @@ Use these credentials to explore the app:
 # 🧑‍💻 Developer
 # Prakash Ramavath
 Frontend Developer | React Enthusiast
-
+[LinkefIn](https://www.linkedin.com/in/prakashramavath/) | [Github](https://github.com/prakashramav)
 
 # 📝 License
 This project is licensed under the MIT License.
